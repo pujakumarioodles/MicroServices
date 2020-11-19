@@ -1,0 +1,5 @@
+package abc.service.controller;
+
+public class MyFirstMicroService {
+
+}

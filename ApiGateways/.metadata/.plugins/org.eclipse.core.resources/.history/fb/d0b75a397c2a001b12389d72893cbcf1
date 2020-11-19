@@ -1,0 +1,26 @@
+
+
+
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: MicroService1
+        uri: lb://MicroService1
+        predicates:
+        - Path=/
+      - id: MicroService2
+        uri: lb://MicroService2
+        predicates:
+        - Path=/a  
+
+
+  application:
+     name: ApiGateWays
+     
+     
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true

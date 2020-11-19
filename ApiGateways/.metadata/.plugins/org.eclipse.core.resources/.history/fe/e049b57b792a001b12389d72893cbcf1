@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - 
+
+
+ application:
+     name: ApiGateWays
+
+eureka.client.register.with.eureca=false
+eureka.client.fetch-registry=false

@@ -1,0 +1,15 @@
+package com.example.gggf;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class RegistryNewApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RegistryNewApplication.class, args);
+	}
+
+}
