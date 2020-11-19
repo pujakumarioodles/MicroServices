@@ -1192,3 +1192,275 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-11-19 23:01:38,121 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-19 23:01:38,121 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2020-11-19 23:01:38,178 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/src/test/resources
+2020-11-19 23:20:14,817 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 23:20:14,848 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2020-11-19 23:20:14,886 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 23:20:14,918 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-19 23:20:14,948 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-19 23:20:14,948 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2020-11-19 23:20:14,988 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/src/test/resources
+2020-11-19 23:21:18,675 [Worker-65: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ApiGateWays:0.0.1-SNAPSHOT @ /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/pom.xml.
+2020-11-19 23:22:04,475 [Worker-66: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ApiGateWays/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-19 23:22:05,045 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ApiGateWays:0.0.1-SNAPSHOT @ /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/pom.xml.
+2020-11-19 23:22:43,507 [Worker-65: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ApiGateWays/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-19 23:22:43,905 [Worker-63: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ApiGateWays:0.0.1-SNAPSHOT @ /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/pom.xml.
+2020-11-19 23:23:57,430 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-19 23:23:58,763 [DefaultMetadataResolver-9-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies/2020.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:23:58,789 [DefaultMetadataResolver-9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-dependencies/2020.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:23:59,367 [DefaultMetadataResolver-9-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies/2020.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:00,183 [DefaultMetadataResolver-10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:00,489 [DefaultMetadataResolver-10-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:01,122 [DefaultMetadataResolver-10-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:02,024 [DefaultMetadataResolver-11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:02,024 [DefaultMetadataResolver-11-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:03,002 [DefaultMetadataResolver-11-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:04,075 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.0-SNAPSHOT/spring-cloud-commons-dependencies-3.0.0-20201119.160735-501.pom
+2020-11-19 23:24:05,121 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.0-SNAPSHOT/spring-cloud-commons-dependencies-3.0.0-20201119.160735-501.pom
+2020-11-19 23:24:05,539 [DefaultMetadataResolver-12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:05,842 [DefaultMetadataResolver-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:06,524 [DefaultMetadataResolver-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:07,232 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.0-SNAPSHOT/spring-cloud-netflix-dependencies-3.0.0-20201119.174401-1964.pom
+2020-11-19 23:24:07,987 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.0-SNAPSHOT/spring-cloud-netflix-dependencies-3.0.0-20201119.174401-1964.pom
+2020-11-19 23:24:08,475 [DefaultMetadataResolver-13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:09,010 [DefaultMetadataResolver-13-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:10,210 [DefaultMetadataResolver-13-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:10,863 [DefaultMetadataResolver-14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-task-dependencies/2.3.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:11,139 [DefaultMetadataResolver-14-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-task-dependencies/2.3.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:11,725 [DefaultMetadataResolver-14-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-task-dependencies/2.3.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:12,367 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-task-dependencies/2.3.0-SNAPSHOT/spring-cloud-task-dependencies-2.3.0-20201119.171419-227.pom
+2020-11-19 23:24:14,581 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-task-dependencies/2.3.0-SNAPSHOT/spring-cloud-task-dependencies-2.3.0-20201119.171419-227.pom
+2020-11-19 23:24:15,033 [DefaultMetadataResolver-15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:15,123 [DefaultMetadataResolver-15-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:16,043 [DefaultMetadataResolver-15-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:16,770 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.0-SNAPSHOT/spring-cloud-circuitbreaker-dependencies-2.0.0-20201119.164249-456.pom
+2020-11-19 23:24:18,117 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.0-SNAPSHOT/spring-cloud-circuitbreaker-dependencies-2.0.0-20201119.164249-456.pom
+2020-11-19 23:24:19,638 [DefaultMetadataResolver-16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-config-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:20,457 [DefaultMetadataResolver-16-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-config-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:21,437 [DefaultMetadataResolver-16-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-config-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:22,096 [DefaultMetadataResolver-17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-function-dependencies/3.1.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:22,175 [DefaultMetadataResolver-17-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-function-dependencies/3.1.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:22,833 [DefaultMetadataResolver-17-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-function-dependencies/3.1.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:23,326 [DefaultMetadataResolver-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:24,153 [DefaultMetadataResolver-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:24,223 [DefaultMetadataResolver-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:24,758 [DefaultMetadataResolver-19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:24,759 [DefaultMetadataResolver-19-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:25,499 [DefaultMetadataResolver-19-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:26,091 [DefaultMetadataResolver-20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:26,130 [DefaultMetadataResolver-20-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:26,886 [DefaultMetadataResolver-20-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:27,351 [DefaultMetadataResolver-21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:27,557 [DefaultMetadataResolver-21-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:28,014 [DefaultMetadataResolver-21-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:28,446 [DefaultMetadataResolver-22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:28,753 [DefaultMetadataResolver-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:29,372 [DefaultMetadataResolver-22-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:29,906 [DefaultMetadataResolver-23-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-security-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:29,997 [DefaultMetadataResolver-23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-security-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:30,442 [DefaultMetadataResolver-23-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-security-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:31,212 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-security-dependencies/3.0.0-SNAPSHOT/spring-cloud-security-dependencies-3.0.0-20201119.124107-442.pom
+2020-11-19 23:24:31,728 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-security-dependencies/3.0.0-SNAPSHOT/spring-cloud-security-dependencies-3.0.0-20201119.124107-442.pom
+2020-11-19 23:24:32,146 [DefaultMetadataResolver-24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:33,054 [DefaultMetadataResolver-24-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:33,734 [DefaultMetadataResolver-24-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:34,301 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.0-SNAPSHOT/spring-cloud-cloudfoundry-dependencies-3.0.0-20201119.175226-445.pom
+2020-11-19 23:24:34,794 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.0-SNAPSHOT/spring-cloud-cloudfoundry-dependencies-3.0.0-20201119.175226-445.pom
+2020-11-19 23:24:35,164 [DefaultMetadataResolver-25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:35,339 [DefaultMetadataResolver-25-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:36,053 [DefaultMetadataResolver-25-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:36,494 [DefaultMetadataResolver-26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:36,517 [DefaultMetadataResolver-26-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:37,423 [DefaultMetadataResolver-26-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:37,967 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.0-SNAPSHOT/spring-cloud-contract-dependencies-3.0.0-20201119.153003-2028.pom
+2020-11-19 23:24:38,490 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.0-SNAPSHOT/spring-cloud-contract-dependencies-3.0.0-20201119.153003-2028.pom
+2020-11-19 23:24:39,172 [DefaultMetadataResolver-27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:39,402 [DefaultMetadataResolver-27-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:40,353 [DefaultMetadataResolver-27-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:40,794 [DefaultMetadataResolver-28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:40,970 [DefaultMetadataResolver-28-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:42,016 [DefaultMetadataResolver-28-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:42,419 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ApiGateWays:0.0.1-SNAPSHOT @ /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/pom.xml.
+2020-11-19 23:24:42,979 [DefaultMetadataResolver-29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-gateway/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:43,421 [DefaultMetadataResolver-29-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-gateway/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:44,128 [DefaultMetadataResolver-29-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-gateway/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:44,573 [DefaultMetadataResolver-30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gateway/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:44,638 [DefaultMetadataResolver-30-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:45,017 [DefaultMetadataResolver-30-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:45,546 [DefaultMetadataResolver-31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-build/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:45,856 [DefaultMetadataResolver-31-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:46,470 [DefaultMetadataResolver-31-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:47,087 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build/3.0.0-SNAPSHOT/spring-cloud-build-3.0.0-20201119.151806-510.pom
+2020-11-19 23:24:48,094 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build/3.0.0-SNAPSHOT/spring-cloud-build-3.0.0-20201119.151806-510.pom
+2020-11-19 23:24:48,490 [DefaultMetadataResolver-32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-build-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:48,586 [DefaultMetadataResolver-32-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:49,564 [DefaultMetadataResolver-32-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-build-dependencies/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:50,039 [DefaultMetadataResolver-33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:50,154 [DefaultMetadataResolver-33-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:50,873 [DefaultMetadataResolver-33-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:51,593 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/spring-cloud-starter-3.0.0-20201119.161015-478.pom
+2020-11-19 23:24:52,378 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/spring-cloud-starter-3.0.0-20201119.161015-478.pom
+2020-11-19 23:24:52,876 [DefaultMetadataResolver-34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons-parent/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:53,123 [DefaultMetadataResolver-34-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-parent/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:53,649 [DefaultMetadataResolver-34-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-parent/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:54,212 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-parent/3.0.0-SNAPSHOT/spring-cloud-commons-parent-3.0.0-20201119.160740-500.pom
+2020-11-19 23:24:55,045 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons-parent/3.0.0-SNAPSHOT/spring-cloud-commons-parent-3.0.0-20201119.160740-500.pom
+2020-11-19 23:24:56,066 [DefaultMetadataResolver-35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:56,271 [DefaultMetadataResolver-35-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:57,114 [DefaultMetadataResolver-35-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:24:59,167 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/spring-cloud-context-3.0.0-20201119.160852-480.pom
+2020-11-19 23:25:00,615 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/spring-cloud-context-3.0.0-20201119.160852-480.pom
+2020-11-19 23:25:01,829 [DefaultMetadataResolver-36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:02,853 [DefaultMetadataResolver-36-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:05,157 [DefaultMetadataResolver-36-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:10,635 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/spring-cloud-commons-3.0.0-20201119.160940-478.pom
+2020-11-19 23:25:11,878 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/spring-cloud-commons-3.0.0-20201119.160940-478.pom
+2020-11-19 23:25:12,534 [DefaultMetadataResolver-37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-gateway-server/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:12,777 [DefaultMetadataResolver-37-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway-server/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:16,893 [DefaultMetadataResolver-37-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-gateway-server/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:17,499 [DefaultMetadataResolver-38-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:18,623 [DefaultMetadataResolver-38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:18,678 [DefaultMetadataResolver-38-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:19,545 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.0.0-20201119.174650-1841.pom
+2020-11-19 23:25:20,159 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.0.0-20201119.174650-1841.pom
+2020-11-19 23:25:20,594 [DefaultMetadataResolver-39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:20,663 [DefaultMetadataResolver-39-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:21,508 [DefaultMetadataResolver-39-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:21,904 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix/3.0.0-SNAPSHOT/spring-cloud-netflix-3.0.0-20201119.174407-1963.pom
+2020-11-19 23:25:22,462 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix/3.0.0-SNAPSHOT/spring-cloud-netflix-3.0.0-20201119.174407-1963.pom
+2020-11-19 23:25:23,028 [DefaultMetadataResolver-40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:24,053 [DefaultMetadataResolver-40-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:25,400 [DefaultMetadataResolver-40-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:25,798 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-netflix-eureka-client-3.0.0-20201119.174609-1850.pom
+2020-11-19 23:25:27,234 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-netflix-eureka-client-3.0.0-20201119.174609-1850.pom
+2020-11-19 23:25:27,795 [DefaultMetadataResolver-41-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:27,824 [DefaultMetadataResolver-41-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:28,364 [DefaultMetadataResolver-41-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:29,071 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-starter-loadbalancer-3.0.0-20201119.161035-477.pom
+2020-11-19 23:25:30,008 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-starter-loadbalancer-3.0.0-20201119.161035-477.pom
+2020-11-19 23:25:30,507 [DefaultMetadataResolver-42-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:30,746 [DefaultMetadataResolver-42-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:31,567 [DefaultMetadataResolver-42-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/maven-metadata.xml
+2020-11-19 23:25:31,948 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-loadbalancer-3.0.0-20201119.161006-478.pom
+2020-11-19 23:25:32,665 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-loadbalancer-3.0.0-20201119.161006-478.pom
+2020-11-19 23:25:33,826 [AetherRepositoryConnector-repo.spring.io-43-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/spring-cloud-starter-3.0.0-20201119.161015-478.jar
+2020-11-19 23:25:34,817 [AetherRepositoryConnector-repo.spring.io-43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/spring-cloud-context-3.0.0-20201119.160852-480.jar
+2020-11-19 23:25:34,817 [AetherRepositoryConnector-repo.spring.io-43-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-netflix-eureka-client-3.0.0-20201119.174609-1850.jar
+2020-11-19 23:25:34,892 [AetherRepositoryConnector-repo.spring.io-43-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.0.0-20201119.174650-1841.jar
+2020-11-19 23:25:34,817 [AetherRepositoryConnector-repo.spring.io-43-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/spring-cloud-commons-3.0.0-20201119.160940-478.jar
+2020-11-19 23:25:35,878 [AetherRepositoryConnector-repo.spring.io-43-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter/3.0.0-SNAPSHOT/spring-cloud-starter-3.0.0-20201119.161015-478.jar
+2020-11-19 23:25:36,566 [AetherRepositoryConnector-repo.spring.io-43-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-netflix-eureka-client-3.0.0-20201119.174609-1850.jar
+2020-11-19 23:25:36,567 [AetherRepositoryConnector-repo.spring.io-43-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-commons/3.0.0-SNAPSHOT/spring-cloud-commons-3.0.0-20201119.160940-478.jar
+2020-11-19 23:25:36,567 [AetherRepositoryConnector-repo.spring.io-43-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-starter-loadbalancer-3.0.0-20201119.161035-477.jar
+2020-11-19 23:25:36,567 [AetherRepositoryConnector-repo.spring.io-43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-context/3.0.0-SNAPSHOT/spring-cloud-context-3.0.0-20201119.160852-480.jar
+2020-11-19 23:25:36,568 [AetherRepositoryConnector-repo.spring.io-43-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.0-SNAPSHOT/spring-cloud-starter-netflix-eureka-client-3.0.0-20201119.174650-1841.jar
+2020-11-19 23:25:37,036 [AetherRepositoryConnector-repo.spring.io-43-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-loadbalancer-3.0.0-20201119.161006-478.jar
+2020-11-19 23:25:37,265 [AetherRepositoryConnector-repo.spring.io-43-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-starter-loadbalancer-3.0.0-20201119.161035-477.jar
+2020-11-19 23:25:39,320 [AetherRepositoryConnector-repo.spring.io-43-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/cloud/spring-cloud-loadbalancer/3.0.0-SNAPSHOT/spring-cloud-loadbalancer-3.0.0-20201119.161006-478.jar
+2020-11-19 23:25:55,256 [Worker-66: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ApiGateWays/src/main/resources
+2020-11-19 23:25:55,256 [Worker-66: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ApiGateWays/src/main/resources
+2020-11-19 23:25:55,935 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 118 sec
+2020-11-19 23:26:21,771 [Worker-65: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ApiGateWays/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-19 23:26:21,873 [Worker-73: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:560)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:562)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:518)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:364)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:315)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'dependencies' (position: START_TAG seen ...</dependency>\n\n\t<dependencies>... @36:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558)
+	... 23 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'dependencies' (position: START_TAG seen ...</dependency>\n\n\t<dependencies>... @36:16) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:178)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2243)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	... 25 common frames omitted
+2020-11-19 23:26:37,808 [Worker-72: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/ApiGateWays/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-19 23:26:39,359 [Worker-65: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ApiGateWays:0.0.1-SNAPSHOT @ /home/pooja/Downloads/microservices/ApiGateways/ApiGateWays/pom.xml.
