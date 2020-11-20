@@ -1,0 +1,56 @@
+
+
+
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: MicroService1
+        uri: lb://MicroService1
+        predicates:
+        - Path=/b
+        filters:
+        - name: CircuitBreaker
+          args:
+           name: MicroService1
+           fallbackuri: forward:/a
+          
+          
+             
+        
+      - id: MicroService2
+        uri: lb://MicroService2
+        predicates:
+        - Path=/a 
+        filters:
+        - name: CircuitBreaker
+          args:
+           name: MicroService2
+           fallbackuri: forward:/b
+
+
+  application:
+     name: ApiGateWays
+     
+     
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+server:
+  port: 8083
+  
+  
+  
+  
+  
+
+hystrix:
+  metrics:
+    enabled: true
+      
+    
+   
+  
+  

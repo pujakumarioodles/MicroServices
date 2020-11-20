@@ -1,0 +1,22 @@
+package com.example.demo.Controller;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyClass {
+	
+	
+	@Value("${microservice.MicroService1.endpoints.endpoint.uri}")
+	private String ENDPOINT_URI;
+	
+	@GetMapping("/a")
+	public String hhh()
+	{
+		System.out.println("hhgg");
+		System.out.println("ENDPOINT_URI"+ENDPOINT_URI);
+		return "puja is the Great";
+	}
+
+}

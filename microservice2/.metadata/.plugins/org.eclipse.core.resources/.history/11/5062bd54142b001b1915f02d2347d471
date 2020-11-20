@@ -1,0 +1,6 @@
+server.port=8082
+spring.application.name=MicroService2
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+spring.cloud.config.uri=http://localhost:8085
+logging.file.name=/home/pooja/Desktop/important vidoes/logggerOfMicroservice
